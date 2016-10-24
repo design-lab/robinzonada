@@ -1,0 +1,1841 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Робинзонада</title>
+
+	<!-- CSS -->
+	<link href="dist/css/styles.css" rel="stylesheet">
+	<link href="dist/css/mediaqueries.css" rel="stylesheet">
+
+	<!--SCRIPTS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyJh6d1_13v_udQMlvz7Zg46rVDrs8-JE"></script>
+	<script src="dist/js/script-vendors.js"></script>
+	<script src="dist/js/script-users.js"></script>
+	<!--[if lt IE 9]><script src="js/html5shiv-printshiv.min.js"></script><![endif]-->
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="mob-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="logo">
+				<a href="index.html">
+					<img class="logo__r" src="dist/img/R-logo.svg" alt="R-logo.svg">
+					<img class="logo__25" src="dist/img/25-logo.svg" alt="25-logo.svg">
+					<img class="logo__tx" src="dist/img/text-logo.svg" alt="text-logo.svg">
+					<span>Активный детский отдых</span>
+				</a>
+			</div>
+			<div class="contacts">
+				<p>Москва</p>
+				<div class="phone">
+					<svg>
+						<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-header-call"></use>
+					</svg>
+					<a href="tel:+74953088180">+7 (495) 308-81-80</a>
+				</div>
+			</div>
+			<div class="contacts">
+				<p>Санкт-Петербург</p>
+				<div class="phone">
+					<svg>
+						<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-header-call"></use>
+					</svg>
+					<a href="tel:+78123093981">+7 (812) 309-39-81</a>
+				</div>
+			</div>
+			<a href="#" class="btn-shape">Перезвоните мне</a>
+			<div class="mobile-search">
+				<svg>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-search"></use>
+				</svg>
+				<input type="search">
+			</div>
+			<div class="mobile-back">
+				<a href="#" class="js--mmenu-back">
+					<svg class="mobile-back__back">
+						<use xlink:href="dist/img/sprite/sprite.svg#left-arrow"></use>
+					</svg>
+					<span>Назад</span>
+				</a>
+				<a href="" class="js--mmenu-close">
+					<svg class="mobile-back__close">
+						<use xlink:href="dist/img/sprite/sprite.svg#close"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<nav class="top-menu js--top-menu">
+		<ul class="container">
+			<li><a href="#">О клубе</a></li>
+			<li><a href="#">Наши программы</a></li>
+			<li><a href="#">Робинзонам</a></li>
+			<li><a href="#">Родителям</a></li>
+			<li><a href="#">Школам</a></li>
+			<li>
+				<a href="#">Сотрудникам</a>
+				<ul class="top-submenu js--submenu">
+					<li><a href="#">Учебный центр</a></li>
+					<li><a href="#">Курсы игры на гитаре</a></li>
+					<li><a href="#">Дни рождения педагогов</a></li>
+					<li><a href="#">Путешествия в подарок</a></li>
+					<li><a href="#">Лучшие сотрудники</a></li>
+					<li><a href="#">Документы на программы</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Запись на программу</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Акции</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Контакты</a></li>
+			<span class="search-field">
+				<svg>
+					<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search"></use>
+				</svg>
+				<input type="search" placeholder="Найти">
+			</span>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="container">
+			<div class="main-top">
+				<ul class="breadcrumbs">
+					<li><a href="index.html">Главная </a></li>
+					<li><a href="#">Наши программы</a></li>
+					<li><a href="#">Летние каникулы</a></li>
+				</ul>
+
+				<h1 class="colorized">В гостях у Питера Пэна. Программа с изучением английского языка</h1>
+
+				<div class="top-nav clearfix">
+					<ul class="top-nav__menu">
+						<li><a href="#">Подмосковье</a></li>
+						<li><a href="#">Английский язык</a></li>
+						<li><a href="#">7-8 лет</a></li>
+						<li class="active"><a href="#">Для бывалых</a></li>
+						<li><a href="#">Сосновый лес</a></li>
+					</ul>
+					<ul class="program-content__top">
+						<li>
+							<svg class="children">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#children"></use>
+							</svg>
+							Для детей 10–17 лет
+						</li>
+						<li>
+							<svg class="pin">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+							</svg>
+							Новгородская область, Валдай
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page clearfix">
+				<aside class="page-nav">
+					<ul class="page-nav__list">
+						<li class="active">
+							<a class="js--tabs" href="#tab--about-programm">
+								<svg class="mt-info">
+									<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-newsday"></use>
+								</svg>
+								<span>О программе</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--master">
+								<svg class="mt-origami">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-origami"></use>
+								</svg>
+								<span>Мастер-классы</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--adventure">
+								<svg class="mt-weapon">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-weapon"></use>
+								</svg>
+								<span>Приключения</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--english">
+								<svg class="mt-hat">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-hat"></use>
+								</svg>
+								<span>Английский язык</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--excursion">
+								<svg class="mt-cal">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-col"></use>
+								</svg>
+								<span>Экскурсия</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--schedule">
+								<svg class="mt-calendar">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-calendar"></use>
+								</svg>
+								<span>Распорядок дня</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--residence">
+								<svg class="mt-hovel">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-hovel"></use>
+								</svg>
+								<span>Проживание</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--pool">
+								<svg class="mt-wave">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-wave"></use>
+								</svg>
+								<span>Бассейн</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--security">
+								<svg class="mt-castel">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-castel"></use>
+								</svg>
+								<span>Безопасность</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--equipment">
+								<svg class="mt-bag">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-bag"></use>
+								</svg>
+								<span>Снаряжение</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--docs">
+								<svg class="mt-doc">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-doc"></use>
+								</svg>
+								<span>Необходимые документы</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--parents">
+								<svg class="mt-love">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-love"></use>
+								</svg>
+								<span>Родительский день</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--road">
+								<svg class="mt-compas">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-compas"></use>
+								</svg>
+								<span>Схема проезда</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--team">
+								<svg class="mt-mapmen">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-mapmen"></use>
+								</svg>
+								<span>Команда</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--english-plus">
+								<svg class="mt-hatplus">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-hatplus"></use>
+								</svg>
+								<span>Дополнительно английский</span>
+							</a>
+						</li>
+						<li>
+							<a class="js--tabs" href="#tab--enter">
+								<svg class="mt-manplus">
+									<use xlink:href="dist/img/sprite/sprite.svg#mt-manplus"></use>
+								</svg>
+								<span>Стать участником</span>
+							</a>
+						</li>
+					</ul>
+				</aside>
+				<!--Programm Tabs Starts-->
+				<div class="page-content js--tab-content active" id="tab--about-programm">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">О программе</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--master">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Мастер-классы</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--adventure">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Приключения</h3>
+					<h4>Робинзонада на&nbsp;&laquo;необитаемом острове&raquo;</h4>
+					<p>Робинзонада&nbsp;&mdash; это возможность бросить вызов и&nbsp;испытать себя в&nbsp;Настоящем Приключении, оказаться на&nbsp;месте героя любимых приключенческих фильмов и&nbsp;книг и&nbsp;покорить &laquo;необитаемый остров&raquo;.</p>
+					<p>Робинзонада&nbsp;&mdash; это сутки наедине с&nbsp;природой и&nbsp;самим собой, когда есть возможность изучить, понять, а&nbsp;самое главное принять законы природы. Это 24&nbsp;часа, за&nbsp;которые можно успеть подумать, выполняя творческие задания, открыть в&nbsp;себе неожиданные таланты, совершенствуя свой быт и&nbsp;изобретая множество полезных вещей &laquo;из&nbsp;ничего&raquo;, а&nbsp;самое главное это новая ступень в&nbsp;осознании себя и&nbsp;своих возможностей.</p>
+					<p>На&nbsp;Робинзонаде ребята и&nbsp;девчонки собственными руками соорудят себе укрытие (&laquo;хатку бобра&raquo; или гамак с&nbsp;навесом), разведут костер и&nbsp;приготовят еду, попробуют изготовить себе удочку из&nbsp;подручных средств и&nbsp;приготовить пищу самостоятельно. Именно робинзонада даст возможность мальчишкам и&nbsp;девчонкам в&nbsp;полной мере овладеть навыками безопасного поведения в&nbsp;естественной природной среде. Она оставит детям массу ярких впечатлений, а&nbsp;полученный опыт наверняка пригодится им&nbsp;в&nbsp;жизни.</p>
+					<p>Робинзонада&nbsp;&mdash; это не&nbsp;только приключение, но&nbsp;и&nbsp;определенный этап подготовки к&nbsp;нему.</p>
+					<p>Каждый участник программы за&nbsp;первые несколько дней в&nbsp;лагере посещает мастер-классы и, под руководством опытных инструкторов, овладевает Робинзонскими знаниями и&nbsp;умениями, учится самостоятельно &laquo;выживать&raquo; в&nbsp;экстренных ситуациях, в&nbsp;дикой природе.</p>
+					<p>На&nbsp;испытании (мини-зачете) руководители и&nbsp;инструкторы оценивают его силы и&nbsp;допускают до&nbsp;Робинзонады по&nbsp;определенному уровню (самый простой&nbsp;&mdash; втроем, &laquo;точка&raquo; недалеко от&nbsp;базового лагеря, максимальное количество снаряжения, еды, сложный&nbsp;&mdash; в&nbsp;одиночку, ограниченное количество еды и&nbsp;др.)</p>
+					<p>Потом Робинзонов (только с&nbsp;согласия самого ребенка!) развозят по&nbsp;&laquo;необитаемым островам&raquo;. Сама Робинзонада длится сутки. Каждые 3-4 часа инструкторы посещают участников, на&nbsp;каждой &laquo;точке&raquo; есть рация для экстренной связи с&nbsp;руководителем.</p>
+					<p>Робинзонада учит подростков выдержке и&nbsp;терпению, ценить природу и&nbsp;прекрасное вокруг себя, слаженной работе в&nbsp;команде, самостоятельности в&nbsp;решении возникающих проблем и&nbsp;трудностей, планированию своего быта и&nbsp;досуга&nbsp;и, конечно&nbsp;же, основным Робинзонским навыкам.</p>
+					<p>РОБИНЗОНАДА&nbsp;&mdash; это возможность воплотить мечты в&nbsp;реальность!</p>
+
+					<h4>Водный поход</h4>
+					<p>Поход это не&nbsp;только возможность отдохнуть, прокатиться с&nbsp;комфортом на&nbsp;байдарке или лодке, насладиться природой средней полосы и&nbsp;надышаться свежим воздухом, но&nbsp;и&nbsp;увлекательное путешествие!</p>
+					<p>В&nbsp;поход по&nbsp;Валдайским озерам и&nbsp;рекам ребята отправляются вместе с&nbsp;руководителем, инструкторами и&nbsp;врачом. Предварительно в&nbsp;каждой команде (8-11&nbsp;человек) распределяются поручения, мальчишки и&nbsp;девчонки становятся не&nbsp;просто участниками похода, а&nbsp;метеорологами, дневниковедами, завхозами, штурманами, завпитами&nbsp;и, выполняя&nbsp;их, становятся не&nbsp;только ответственнее и&nbsp;самостоятельнее, но&nbsp;и&nbsp;приобретают полезный опыт и&nbsp;новые знания и&nbsp;умения.</p>
+					<p>Каждый участник похода пополнит свои знания в&nbsp;области обустройства бивуака, приготовления пищи на&nbsp;костре, ориентирования, а&nbsp;так&nbsp;же насладится бесподобным закатом на&nbsp;озере Велье, примет участие в&nbsp;творческих вечерах и&nbsp;посиделках у&nbsp;костра.</p>
+					<p>Водный поход на&nbsp;программе &laquo;Валдайская Робинзонада&raquo;&nbsp;&mdash; это проработанный маршрут, подготовленное снаряжение, высококвалифицированные инструкторы, имеющие богатый опыт, высокую спортивную и&nbsp;профессиональную подготовку, обязательное сопровождение медицинского работника и&nbsp;по-настоящему активный и&nbsp;интересный отдых!</p>
+
+					<h4>Зарница</h4>
+					<p>&laquo;Зарница&raquo;&nbsp;&mdash; это отличная возможность весело провести время с&nbsp;интересными людьми, проявить свои способности, развить физические качества и&nbsp;приобрести полезные навыки, научиться чувствовать плечо товарища и&nbsp;действовать в&nbsp;группе. Участвуя в&nbsp;&laquo;Зарнице&raquo;, можно совершить так много подвигов: проявив смекалку и&nbsp;находчивость, соорудить засаду и&nbsp;взять в&nbsp;плен соперников, действуя с&nbsp;товарищами, как единое целое, разработать тактику и&nbsp;стратегию и&nbsp;захватить базу противников, проявив внимательность и&nbsp;самоотверженность сохранить свое знамя и&nbsp;уберечь команду от&nbsp;проигрыша. Можно бегать по&nbsp;лесу, переправляться через ручьи, ползать по-пластунски, смеяться, радоваться и&nbsp;неистово желать победы!</p>
+					<p>Игра &laquo;Зарница&raquo; задумана и&nbsp;проводится Клубом Путешественников Робинзонада таким образом, что, прежде всего, пробуждают в&nbsp;ребенке самые прекрасные качества человека: радость жизни, уверенность в&nbsp;своих силах и&nbsp;самообладание, постоянную готовность к&nbsp;помощи другим людям, чувство чести, лояльность, самостоятельность и&nbsp;личную инициативу. Они приучают ребят уважать противника и&nbsp;честно исполнять правила игры.</p>
+					<p>Приезжайте, участвуйте, рискуйте, и&nbsp;удача обязательно улыбнется вам! :)</p>
+					<p>Отличное настроение, незабываемые впечатления, &laquo;море&raquo; эмоций и&nbsp;адреналина гарантированы всем участникам программы &laquo;Валдайская Робинзонада&raquo;.</p>
+
+					<h4>В стоимость входит:</h4>
+					<ul class="styled">
+						<li>проживание</li>
+						<li>питание</li>
+						<li>проведение программы</li>
+						<li>прокат общественного снаряжения</li>
+						<li>педагогическое сопровождение</li>
+						<li>обеспечение безопасности участников</li>
+						<li>медицинское обслуживание</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--english">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Английский язык</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--excursion">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Экскурсия</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--schedule">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Распорядок дня</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--residence">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Проживание</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--pool">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Бассейн</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--security">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Безопасность</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--equipment">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Снаряжение</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--docs">
+					<h3 class="name-topic">Необходимые документы</h3>
+
+					<h4>При оформлении путевки следует иметь:раммы</h4>
+					<ul class="styled">
+						<li>паспорт взрослого для оформления Договора</li>
+						<li>анкета на ребенка – можно заполнить одним из двух способов:
+							<ul class="styled">
+								<li>скачать в формате Doc*</li>
+								<li>заполнить он-лайн – при заполнении анкеты вам понадобятся сканы свидетельства о рождении или паспорта ребенка, медицинского полиса и согласия/отказа от медицинского вмешательства</li>
+							</ul>
+						</li>
+						<li><b>ксерокопия свидетельства о рождении или первых двух страниц паспорта</b></li>
+						<li><b>ксерокопия страхового медицинского полиса ребенка (старого образца – лицевую сторону, нового образца – с двух сторон)</b></li>
+						<li>согласие на медицинский осмотр</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--parents">
+					<h3 class="name-topic">Родительский день</h3>
+					<p>
+						В&nbsp;каждую смену лагеря есть родительский день, когда мы&nbsp;ждем вас в&nbsp;гости. Предварительно мы&nbsp;рекомендуем созвониться с&nbsp;руководителем программы или уточнить в&nbsp;отделе поддержки клиентов, где будет находиться в&nbsp;этот день ребенок (дети могут совершать поход, находиться на&nbsp;Робинзонаде). При желании&nbsp;Вы можете остаться на&nbsp;сутки и&nbsp;более в&nbsp;нашем кемпинге, для этого Вам необходимо купить путевку на&nbsp;Семейную Валдайскую Робинзонаду.
+					</p>
+					<p>
+						<b>Настоятельно рекомендуем оплачивать или бронировать путевку на&nbsp;родительский день заранее. Путевка на&nbsp;поляне стоит на&nbsp;10% дороже, чем в&nbsp;офисе.</b>
+					</p>
+					<p>
+						Родители самостоятельно добираются до&nbsp;лагеря. Телефон валдайского такси +7-911-602-64-29
+					</p>
+					<p>
+						<b>Въезд на&nbsp;территорию кемпинга осуществляется с&nbsp;07:00 до&nbsp;23:00.</b>
+					</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--road">
+					<h3 class="name-topic">Схема проезда</h3>
+					<div id="map-road"></div>
+					<p>
+						Схему проезда в&nbsp;формате jpg&nbsp;Вы можете посмотреть <a class="link" href="http://robinzonada.ru/leto2/valdai_prog/shema_proezda.jpg">здесь</a>
+					</p>
+					<p>
+						Координаты лагеря для GPS-навигатора: 57.7343, 33.0924
+					</p>
+					<ol>
+						<li>Поворот налево с&nbsp;Ленинградского шоссе (389&nbsp;км от&nbsp;Москвы). Валдай остается справа. Перед поворотом слева&nbsp;&mdash; заправка. Есть указатель на&nbsp;ИВАНТЕЕВО, ехать до&nbsp;деревни Ивантеево 25&nbsp;км.</li>
+						<li>Деревню ИВАНТЕЕВО проехать по&nbsp;главной дороге. Далее в&nbsp;1&nbsp;км от&nbsp;ИВАНТЕЕВО начинается дорога из&nbsp;бетонных плит. По&nbsp;бетонным плитам ехать примерно 5-6&nbsp;км до&nbsp;второго ответвления грунтовой дороги, сворачиваем с&nbsp;бетонной дороги на&nbsp;широкую грунтовую (бетонка уйдет левее)</li>
+						<li>Доехать до&nbsp;деревни БОЛЬШОЕ УКЛЕЙНО по&nbsp;грунтовой дороге. В&nbsp;середине деревни за&nbsp;деревянной остановкой (слева), поворот налево указатель. &laquo;Симаниха&nbsp;5.7&raquo;, по&nbsp;ней примерно 2,5&nbsp;км вдоль озера до&nbsp;въезда в&nbsp;лес. Далее 200&nbsp;м до&nbsp;перекрестка, там направо. В&nbsp;глубине поворота ориентир&nbsp;&mdash; шлагбаум и&nbsp;табличка на&nbsp;дереве &laquo;Валдайская Робинзонада&raquo;.</li>
+					</ol>
+
+					<p>
+						<b>Въезд на&nbsp;территорию кемпинга осуществляется с&nbsp;07:00 до&nbsp;23:00.</b>
+					</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--team">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Команда</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--english-plus">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Дополнительно английский</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+
+				<div class="page-content js--tab-content hidden" id="tab--enter">
+					<div class="slider-programm">
+						<div class="slider-programm__wrap">
+							<span class="slider-loader hidden">
+								<img class="slider-loader__img" src="dist/img/loading.svg" alt="">
+							</span>
+							<div class="slider-programm__img">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+								<img src="dist/img/photo/slider1.png" alt="">
+							</div>
+							<span class="slider-programm__zoom js--slider-more"></span>
+							<span class="slider-programm__navigation js--slider-navigation">
+								<span class="slider-programm__navigation__tx">ещё</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#arrow"></use>
+								</svg>
+						</span>
+						</div>
+					</div>
+					<h3 class="name-topic">Стать участником</h3>
+					<p>Развивающая лингвистическая программа &laquo;В&nbsp;гостях у&nbsp;Питера Пэна&raquo;&nbsp;&mdash; это прекрасное сочетание активных приключений, туристических и&nbsp;творческих мастер-классов и&nbsp;интерактивных занятий по&nbsp;английскому языку. Если ребенку 7-8&nbsp;лет, он&nbsp;хочет путешествовать, знакомиться с&nbsp;русалками и&nbsp;феями, бороться с&nbsp;пиратами, а&nbsp;родители хотят, чтобы он&nbsp;провел время с&nbsp;пользой и&nbsp;обрел интерес к&nbsp;иностранному языку, то&nbsp;ему точно пора в&nbsp;гости к&nbsp;Питеру Пэну!</p>
+					<p>Все события программы, будь&nbsp;то мастер-класс, спортивная игра, занятия английским языком с&nbsp;носителем языка, бассейн, творческий вечер или главное приключение, объединены единой логикой развития смены&nbsp;&mdash; невероятными приключениями в&nbsp;волшебной стране Питера Пэна&nbsp;&mdash; Нетландии. Каждое отдельное мероприятие&nbsp;&mdash; это еще один шаг в&nbsp;развитии легенды, новый ее&nbsp;поворот.</p>
+					<p>Также программа уникальна тем, что лингвистическая сторона не&nbsp;отделена от&nbsp;всего остального существования ребенка в&nbsp;лагере. Ребята не&nbsp;только посещают занятия по&nbsp;английскому языку, которые органично встроены в&nbsp;легенду, но&nbsp;и&nbsp;в&nbsp;течение всего дня во&nbsp;время мероприятий, игр, командных дел, приключений и&nbsp;даже просто режимных моментов продолжают пополнять свой запас английских слов, совершенствоваться в&nbsp;практике речи, использовать уже усвоенный материал.</p>
+					<p>Все элементы программы выстроены в определенной последовательности в соответствии с возрастными и психологическими особенностями младших школьников, гармонично сменяя друг друга, задействуются все сферы активности детей: физическая, интеллектуальная, игровая, творческая, сфера общения.</p>
+
+					<h4>Каждый участник программы</h4>
+					<ul class="styled">
+						<li>Сможет раскрыться и&nbsp;обнаружит в&nbsp;себе новые способности и&nbsp;таланты.</li>
+						<li>Активно отдохнет на&nbsp;свежем воздухе, наберется сил и&nbsp;энергии.</li>
+						<li>Приобретет много новых друзей, весело и&nbsp;с&nbsp;пользой проведет время в&nbsp;компании сверстников.</li>
+						<li>Научится работать в&nbsp;команде, общаться со&nbsp;сверстниками и&nbsp;взрослыми.</li>
+						<li>Благодаря краснокожим индейцам, познакомится с&nbsp;основами туризма в&nbsp;интересной, понятной детям форме.</li>
+						<li>Вместе с&nbsp;русалками раскроет свой творческий потенциал.</li>
+						<li>Будет легко и&nbsp;увлекательно изучать английский язык, занятия по&nbsp;которому совсем не&nbsp;похожи на&nbsp;уроки в&nbsp;школе.</li>
+						<li>Отправится за&nbsp;сокровищами капитана Крюка.</li>
+						<li>Научится мастерству у&nbsp;феи Динь-Динь.</li>
+						<li>Познакомится с&nbsp;Линией Жизни Робинзона и&nbsp;узнает, как получить звание&nbsp;R1.</li>
+						<li>Сможет запросто пообщаться с&nbsp;носителями английского языка.</li>
+					</ul>
+				</div>
+				<!--Programm Tabs Endss-->
+				<div class="page-info">
+					<div class="page-info__item block-border">
+						<form action="">
+							<div class="tour inactive">
+								<div class="tour__period">
+									<div class="tour__period__date">
+										<span class="tour__period__date__item">29 мая — 4 июня</span>
+									</div>
+									<div class="tour__period__quota">
+										2 смена,
+										<span>мест нет</span>
+										<svg class="flash">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="tour__services">
+									<div class="tour__services__price">
+										<span class="tour__services__price__cost">53 400</span> <span class="rubl">i</span>
+									</div>
+									<div class="tour__services__etc">
+										+ доп. услуги
+									</div>
+								</div>
+								<ul class="tour__other">
+										<li class="js--infobox-parent">
+											<input id="service1" type="checkbox" checked>
+											<label for="service1">
+												проезд <span class="tour-tx">12 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service2" type="checkbox">
+											<label for="service2">
+												подарок <span class="tour-tx">3 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li>
+											<input id="service3" type="checkbox">
+											<label for="service3">
+												день рождение <span class="tour-tx">6 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+									</ul>
+							</div>
+							<div class="tour active">
+								<div class="tour__period">
+									<div class="tour__period__date">
+										<input id="tour1" type="radio" name="tour" checked>
+										<label for="tour1">
+											<span>19 июня — 1 июля</span>
+										</label>
+									</div>
+									<div class="tour__period__quota">
+										4 смена,
+										<span>3 места</span>
+										<svg class="flash">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="tour__services">
+									<div class="tour__services__price">
+										<span class="tour__services__price__cost">65 400</span> <span class="rubl">i</span>
+									</div>
+								</div>
+								<ul class="tour__other">
+										<li class="js--infobox-parent">
+											<input id="service4" type="checkbox" checked>
+											<label for="service4">
+												проезд <span class="tour-tx">12 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service5" type="checkbox">
+											<label for="service5">
+												подарок <span class="tour-tx">3 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service6" type="checkbox">
+											<label for="service6">
+												день рождение <span class="tour-tx">6 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+									</ul>
+							</div>
+							<div class="tour">
+								<div class="tour__period">
+									<div class="tour__period__date">
+										<input id="tour2" type="radio" name="tour">
+										<label for="tour2"><span>17 июля — 29 июля</span></label>
+									</div>
+									<div class="tour__period__quota">
+										4 смена,
+										<span>3 места</span>
+										<svg class="flash">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="tour__services">
+									<div class="tour__services__price">
+										<span class="tour__services__price__cost">53 400</span> <span class="rubl">i</span>
+									</div>
+									<div class="tour__services__etc">
+										+ доп. услуги
+									</div>
+								</div>
+								<ul class="tour__other">
+										<li class="js--infobox-parent">
+											<input id="service7" type="checkbox" checked>
+											<label for="service7">
+												проезд <span class="tour-tx">12 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service8" type="checkbox">
+											<label for="service8">
+												подарок <span class="tour-tx">3 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service9" type="checkbox">
+											<label for="service9">
+												день рождение <span class="tour-tx">6 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+									</ul>
+							</div>
+							<div class="tour">
+								<div class="tour__period">
+									<div class="tour__period__date">
+										<input id="tour3" type="radio" name="tour">
+										<label for="tour3"><span>14 августа — 26 августа</span></label>
+									</div>
+									<div class="tour__period__quota">
+										4 смена,
+										<span>3 места</span>
+										<svg class="flash">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="tour__services">
+									<div class="tour__services__price">
+										<span class="tour__services__price__cost">53 400</span> <span class="rubl">i</span>
+									</div>
+									<div class="tour__services__etc">
+										+ доп. услуги
+									</div>
+								</div>
+								<ul class="tour__other">
+										<li class="js--infobox-parent">
+											<input id="service10" type="checkbox" checked>
+											<label for="service10">
+												проезд <span class="tour-tx">12 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service11" type="checkbox">
+											<label for="service11">
+												подарок <span class="tour-tx">3 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+										<li class="js--infobox-parent">
+											<input id="service12" type="checkbox">
+											<label for="service12">
+												день рождение <span class="tour-tx">6 000 <span class="rubl">i</span></span>
+											</label>
+											<span class="infobox-question js--infobox-link"><svg class="svg--question">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#question"></use>
+												</svg>
+											</span>
+
+											<div class="infobox js--infobox">
+												<span class="infobox__close js--infobox-close"></span>
+												<p class="infobox__tx">
+													Дарим призы при оформлении тура в день рождения! Не забудьте сообщить менеджеру, что у вас или у кого-то из ваших спутников праздник! :)
+												</p>
+											</div>
+										</li>
+									</ul>
+							</div>
+							<div class="block-border__footer">
+								<button class="btn-main btn-sub">
+									Заказать тур
+								</button>
+							</div>
+						</form>
+					</div>
+
+					<div class="page-info__item block-border">
+						<div class="block-border__header">
+							<a class="block-border__header__link" href="#">
+								<span>Скидки с&nbsp;12&nbsp;по&nbsp;20&nbsp;июля</span>
+								<svg class="svg--arrow-right">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="block-border__content">
+							<div class="sale">
+								<div class="sale__pic">
+									<span class="sale__price">500&nbsp;<span class="rubl">i</span></span>
+									<svg class="svg--label">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#label"></use>
+									</svg>
+								</div>
+								<div class="sale__tx">
+									при оплате по безналичному расчету
+								</div>
+							</div>
+							<div class="sale">
+								<div class="sale__pic">
+									<span class="sale__price">500&nbsp;<span class="rubl">i</span></span>
+									<svg class="svg--label">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#label"></use>
+									</svg>
+								</div>
+								<div class="sale__tx">
+									при оплате в&nbsp;течение 2 дней с&nbsp;момента брони
+								</div>
+							</div>
+							<div class="sale">
+								<div class="sale__pic">
+									<span class="sale__price">2000&nbsp;<span class="rubl">i</span></span>
+									<svg class="svg--label">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#label"></use>
+									</svg>
+								</div>
+								<div class="sale__tx">
+									участникам программ с 3&nbsp;по&nbsp;16&nbsp;июля
+								</div>
+							</div>
+							<div class="sale__etc-info">
+								Действует персональная скидка для родителей бывалых Робинзонов.
+							</div>
+						</div>
+					</div>
+
+					<div class="page-info__item review_white">
+						<div class="block-border">
+							<div class="block-border__header">
+								<a class="block-border__header__link" href="#">
+									<span>Отзывы о&nbsp;программе</span>
+									<svg class="svg--arrow-right">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</div>
+							<div class="block-border__content">
+
+								<div class="review__cloud">
+									<div class="review__tx js--read-block">
+										<div class="bg-grad bg-grad_color-main"></div>
+										<p>
+											Моя дочь Истюнина Валерия вернулась сегодня с четвертой смены Валдайской Робинзонады, в полном восторге. Была в первый раз. Понравилось все: игры, мастерклассы, инструктора, вожатые, ребята, еда, походы пожалуй всего и не перечислить. Я как мама благодарна за отличную организацию, внимательное и доброе отношение к детям всем организаторам и сотрудникам лагеря.
+										</p>
+									</div>
+									<div class="review__more">
+										<a class="link-dashed js--read-more" href="#">Читать отзыв полностью</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="review__user clearfix">
+							<svg class="user-portrait">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-user"></use>
+							</svg>
+							<div class="review__user__name">
+								<p class="person">Валерия Маслова</p>
+								<p class="date">28.03.2015</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-info__item block-border page-block-news">
+						<div class="block-border__header">
+							<a class="block-border__header__link" href="#">
+								<span>Новости программы</span>
+								<svg class="svg--arrow-right">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="block-border__content">
+							<ul class="page-info__item__news">
+								<li><a class="link" href="#">0 смена. 29.05 — 04.06.2016</a></li>
+								<li><a class="link" href="#">2 смена. 19.06 — 01.07.2016</a></li>
+								<li><a class="link" href="#">4 смена. 17.07 — 29.07.2016</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="page-info__item block-border">
+						<div class="block-border__header">
+							<a class="block-border__header__link" href="#">
+								<span>Фотоотчёты</span>
+								<svg class="svg--arrow-right">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="block-border__content photo-block">
+							<div class="photo-block__imgs js--grid">
+								<img class="photo-block__imgs_large js--grid-item" src="dist/img/photo/001.png" alt="">
+								<img class="photo-block__imgs_small js--grid-item" src="dist/img/photo/002.png" alt="">
+								<img class="photo-block__imgs_small js--grid-item" src="dist/img/photo/005.png" alt="">
+								<img class="photo-block__imgs_long js--grid-item" src="dist/img/photo/004.png" alt="">
+								<img class="photo-block__imgs_longest js--grid-item" src="dist/img/photo/003.png" alt="">
+								<img class="photo-block__imgs_small js--grid-item" src="dist/img/photo/006.png" alt="">
+							</div>
+							<div class="photo-block__link"><a class="link" href="#">0 смена. 29.05 — 04.06.2016</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="navigation">
+			<div class="container">
+				<div class="footer-menu clearfix">
+					<ul>
+						<li>О клубе</li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Кто делает Робинзонаду</a></li>
+						<li><a href="#">Юридические лица</a></li>
+						<li><a href="#">Авторские права</a></li>
+						<li><a href="#">Награды</a></li>
+						<li><a href="#">Пресса о нас</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Для агентств</a></li>
+						<li><a href="#">Наши партнеры</a></li>
+						<li><a href="#">Места проведения</a></li>
+					</ul>
+					<ul>
+						<li>Программы</li>
+						<li><a href="#">Зимние каникулы</a></li>
+						<li><a href="#">Новый год</a></li>
+						<li><a href="#">Весенние каникулы</a></li>
+						<li><a href="#">Летние каникулы</a></li>
+						<li><a href="#">Осенние каникулы</a></li>
+						<li><a href="#">Семейные программы</a></li>
+						<li><a href="#">Выходные</a></li>
+						<li><a href="#">Школам</a></li>
+						<li><a href="#">Дни рождения</a></li>
+						<li><a href="#">Фото и видео</a></li>
+					</ul>
+					<ul>
+						<li>Робинзонам</li>
+						<li><a href="#">Линия Жизни Робинзона</a></li>
+						<li><a href="#">Премия «Робинзон года»</a></li>
+						<li><a href="#">Конкурсы</a></li>
+						<li><a href="#">Курсы игры на гитаре</a></li>
+						<li><a href="#">Activity. Next Step</a></li>
+						<li><a href="#">Дни Рождения Робинзонов</a></li>
+					</ul>
+					<ul>
+						<li>Родителям</li>
+						<li><a href="#">Купить путевку</a></li>
+						<li><a href="#">Отъезд/приезд групп</a></li>
+						<li><a href="#">Новости со смен</a></li>
+						<li><a href="#">Безопасность на программе</a></li>
+						<li><a href="#">Магазин Робинзонады</a></li>
+						<li><a href="#">Полезные статьи</a></li>
+						<li><a href="#">Часто задаваемые вопросы</a></li>
+						<li><a href="#">Образцы документов</a></li>
+					</ul>
+					<ul>
+						<li>Сотрудникам</li>
+						<li><a href="#">Учебный центр</a></li>
+						<li><a href="#">Курсы игры на гитаре</a></li>
+						<li><a href="#">Дни рождения педагогов</a></li>
+						<li><a href="#">Путешествия в подарок</a></li>
+						<li><a href="#">Лучшие сотрудники</a></li>
+						<li><a href="#">Документы на программы</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Запись на программу</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-info clearfix">
+					<div class="footer-info__phone">
+						<a href="tel:+74953088180">
+							<svg>
+								<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-footer-call"></use>
+							</svg>
+							+7 495 308-81-80
+						</a>
+					</div>
+					<div class="footer-info__address">
+						<svg>
+							<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-footer-point"></use>
+						</svg>
+						Москва, м. Трубная, Кузнецкий мост. Нижний Кисельный переулок, д. 5/23, стр. 1
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom__license">
+					© 1998-2016. Клуб путешественников Робинзонада. «Робинзонада» является зарегистрированным Роспатентом товарным знаком. Любое использование информации без ссылки на источник будет преследоваться по закону.
+					<div class="full-site mq--xs">
+						<a href="#" class="btn-main btn-sub">Полная версия сайта</a>
+					</div>
+				</div>
+
+				<div class="footer-bottom__contacts">
+					По вопросам работы сайта пишите по адресу <a href="mailto:info@robinzonada.ru" class="link">info@robinzonada.ru</a> Нам важно Ваше мнение о нашем сайте детского отдыха. <a href="#" class="link">Карта сайта</a>
+				</div>
+
+				<div class="footer-bottom__dl">
+					<p>Создание сайтов</p>
+					<a href="design-lab.ru"><img src="dist/img/design-lab.png" alt="design-lab.png"></a>
+					<img src="dist/img/calc.png" alt="calc.png">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--MODAL WINDOWS-->
+	<div id="modal--mob-menu">
+		<div class="js--modal--mob-menu">
+			<ul id="modal--mob-menu__wrap" class="active">
+				<li>
+					<a href="#"><span>О клубе</span></a>
+					<ul>
+						<li>
+							<a href="google.com"><span>О нас</span></a>
+							<ul>
+								<li>
+									<a href="http://google.com"><span>История Робинзонады</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Клуб Путешественников сегодня</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Уникальные молодежные проекты</span></a>
+								</li>
+								<li>
+									<a href="#"><span>От детского лагеря до кругосветного путешествия</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Архив проектов</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#"><span>Нам 25 лет!</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Кто делает Робинзонаду</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Юридические лица</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Авторские права</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Награды</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Пресса о нас</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Отзывы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Для агентств</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Наши партнеры</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Места проведения</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Наши программы</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Летние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Осенние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Зимние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Весенние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Семейные программы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Программы выходного дня</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Школам</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Дни рождения</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Фото и видео</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Робинзонам</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Линия Жизни Робинзона</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Премия "Робинзон года"</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Конкурсы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Курсы игры на гитаре</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Activity. Next Step</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Дни Рождения Робинзонов</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Родителям</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Купить путевку</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Анкета on-line для родителей</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Экономим вместе</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Отъезд/приезд групп</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Новости со смен</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Безопасность на программе</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Магазин Робинзонады</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Полезные статьи</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Часто задаваемые вопросы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Образцы документов</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Ночь в Робинзонаде</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Школам</span></a>
+				</li>
+				<li>
+					<a href="#"><span>Сотрудникам</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Учебный центр</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Курсы игры на гитарe</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Дни рождения педагогов</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Путешествия в подарок</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Лучшие сотрудники</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Документы на программы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Вакансии</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Запись на программу</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Акции</span></a>
+				</li>
+				<li>
+					<a href="#"><span>Отзывы</span></a>
+				</li>
+				<li>
+					<a href="#"><span>Контакты</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Офис</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Программы</span></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--Modal windows-->
+	<div class="modal-area">
+		<div class="modal-wrap">
+
+		</div>
+	</div>
+</body>
+
+</html>

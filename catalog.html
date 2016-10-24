@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Робинзонада</title>
+
+	<!-- CSS -->
+	<link href="dist/css/styles.css" rel="stylesheet">
+	<link href="dist/css/mediaqueries.css" rel="stylesheet">
+
+	<!--SCRIPTS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="dist/js/script-vendors.js"></script>
+	<script src="dist/js/script-users.js"></script>
+	<!--[if lt IE 9]><script src="js/html5shiv-printshiv.min.js"></script><![endif]-->
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="mob-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="logo">
+				<a href="index.html">
+					<img class="logo__r" src="dist/img/R-logo.svg" alt="R-logo.svg">
+					<img class="logo__25" src="dist/img/25-logo.svg" alt="25-logo.svg">
+					<img class="logo__tx" src="dist/img/text-logo.svg" alt="text-logo.svg">
+					<span>Активный детский отдых</span>
+				</a>
+			</div>
+			<div class="contacts">
+				<p>Москва</p>
+				<div class="phone">
+					<svg>
+						<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-header-call"></use>
+					</svg>
+					<a href="tel:+74953088180">+7 (495) 308-81-80</a>
+				</div>
+			</div>
+			<div class="contacts">
+				<p>Санкт-Петербург</p>
+				<div class="phone">
+					<svg>
+						<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-header-call"></use>
+					</svg>
+					<a href="tel:+78123093981">+7 (812) 309-39-81</a>
+				</div>
+			</div>
+			<a href="#" class="btn-shape">Перезвоните мне</a>
+			<div class="mobile-search">
+				<svg>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-search"></use>
+				</svg>
+				<input type="search">
+			</div>
+			<div class="mobile-back">
+				<a href="#" class="js--mmenu-back">
+					<svg class="mobile-back__back">
+						<use xlink:href="dist/img/sprite/sprite.svg#left-arrow"></use>
+					</svg>
+					<span>Назад</span>
+				</a>
+				<a href="" class="js--mmenu-close">
+					<svg class="mobile-back__close">
+						<use xlink:href="dist/img/sprite/sprite.svg#close"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<nav class="top-menu js--top-menu">
+		<ul class="container">
+			<li><a href="#">О клубе</a></li>
+			<li><a href="#">Наши программы</a></li>
+			<li><a href="#">Робинзонам</a></li>
+			<li><a href="#">Родителям</a></li>
+			<li><a href="#">Школам</a></li>
+			<li>
+				<a href="#">Сотрудникам</a>
+				<ul class="top-submenu js--submenu">
+					<li><a href="#">Учебный центр</a></li>
+					<li><a href="#">Курсы игры на гитаре</a></li>
+					<li><a href="#">Дни рождения педагогов</a></li>
+					<li><a href="#">Путешествия в подарок</a></li>
+					<li><a href="#">Лучшие сотрудники</a></li>
+					<li><a href="#">Документы на программы</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Запись на программу</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Акции</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Контакты</a></li>
+			<span class="search-field">
+				<svg>
+					<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search"></use>
+				</svg>
+				<input type="search" placeholder="Найти">
+			</span>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="container">
+			<div class="main-top">
+				<ul class="breadcrumbs">
+					<li><a href="index.html">Главная </a></li>
+					<li><a href="#">Наши программы</a></li>
+					<li><a href="#">Летние каникулы</a></li>
+				</ul>
+
+				<h1 class="colorized">Летние детские лагеря и детский отдых в 2016 году</h1>
+			</div>
+			<ul class="tags-list tags-list_simple">
+				<li><a class="tag-sm" href="#">Рождество</a></li>
+				<li><a class="tag-sm" href="#">Новый год</a></li>
+				<li><a class="tag-lg" href="#">Семьей</a></li>
+				<li><a class="tag-sm" href="#">Горы</a></li>
+				<li><a class="tag-sm" href="#">Море</a></li>
+				<li><a class="tag-xl" href="#">Подмосковье</a></li>
+				<li><a class="tag-sm" href="#">Английский язык</a></li>
+				<li><a class="tag-sm" href="#">Выходные</a></li>
+				<li><a class="tag-lg" href="#">Мальчикам</a></li>
+				<li><a class="tag-md" href="#">Девочкам</a></li>
+				<li><a class="tag-sm" href="#">Лидерам</a></li>
+				<li><a class="tag-lg" href="#">Москва</a></li>
+				<li><a class="tag-sm" href="#">Питер</a></li>
+				<li><a class="tag-sm" href="#">Геленджик</a></li>
+				<li><a class="tag-sm" href="#">Карелия</a></li>
+				<li><a class="tag-sm" href="#">Турция</a></li>
+				<li><a class="tag-sm" href="#">Мастер-классы</a></li>
+				<li><a class="tag-lg" href="#">Экскурсии</a></li>
+				<li><a class="tag-xl" href="#">Валдай</a></li>
+				<li><a class="tag-sm" href="#">Сосновый бор</a></li>
+				<li><a class="tag-sm" href="#">Китайский язык</a></li>
+				<li><a class="tag-md" href="#">Путешествия</a></li>
+				<li><a class="tag-sm" href="#">Майские праздники</a></li>
+				<li><a class="tag-sm" href="#">Для бывалых</a></li>
+				<li><a class="tag-sm" href="#">Рождество</a></li>
+				<li><a class="tag-sm" href="#">Новый год</a></li>
+			</ul>
+
+			<div class="block-main clearfix">
+				<div class="block-right catalog-programs">
+					<div class="drop-menu">
+						<div class="drop-menu__active">
+							<span>Зимние каникулы</span>
+							<b></b>
+						</div>
+						<ul class="drop-menu-dropdown">
+							<li class="active">
+									<a href="#">Летние каникулы 2017</a>
+									<ul>
+										<li><a href="#">Валдайская Робинзонада</a></li>
+										<li><a href="#">Детские лагеря в Подмосковье</a></li>
+										<li><a href="#">Детский отдых в Сосновом бору</a></li>
+										<li><a href="#">Отдых с изучением английского языка</a></li>
+										<li><a href="#">Робинзонада в Карелии</a></li>
+										<li><a href="#">Детский отдых в Крыму</a></li>
+										<li><a href="#">Детский отдых в Калининградской области</a></li>
+										<li><a href="#">Лагерь с изучением китайского языка</a></li>
+										<li><span class="active-item">Летние походы и путешествия</span></li>
+										<li><a href="#">Детские лагеря в Геленджике и Анапе</a></li>
+										<li><a href="#">Валдайская Робинзонада для взрослых</a></li>
+									</ul>
+							</li>
+							<li><a href="#">Осенние каникулы</a></li>
+							<li><a href="#">Зимние каникулы</a></li>
+							<li><a href="#">Весенние каникулы</a></li>
+							<li><a href="#">Семейные программы</a></li>
+							<li><a href="#">Программы выходного дня</a></li>
+							<li><a href="#">Школам</a></li>
+							<li><a href="#">Фото и видео</a></li>
+						</ul>
+					</div>
+
+					<section class="block-programs">
+						<h3 class="block-programs__name">Валдайская Робинзонада</h3>
+						<article class="program clearfix">
+							<span class="program-label">
+								<span>Акция</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#star"></use>
+								</svg>
+							</span>
+							<div class="program-img" style="background-image: url(../dist/img/program-1.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 10–17 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Новгородская область, Валдай
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">Валдайская Робинзонада</h5></a>
+									<div class="program-content__tx">
+										<p>Активный детский отдых на озере Велье. Освоение робинзонских премудростей, водный поход (байдарки, лодки) и Робинзонада на «необитаемом» острове! Экстрим-парк. Аквазорбинг. </p>
+									</div>
+									<div class="program-details">
+										<a herf="#" class="btn-brd">Описание программы</a>
+										<span class="info info_danger">
+											<svg class="flash">
+												<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+											</svg>
+											Места заканчиваются
+										</span>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">36 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+						<article class="program clearfix">
+							<span class="program-label">
+								<span>Спец цена</span>
+								<svg>
+									<use xlink:href="dist/img/sprite/sprite.svg#star-red"></use>
+								</svg>
+							</span>
+							<div class="program-img" style="background-image: url(../dist/img/program-2.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 10-14 и родителей с детьми от 7 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Вологодская область, г. Великий Устюг Новгородская область, Валдай
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">
+										Валдайская Робинзонада. Детский лагерь для взрослых
+									</h5></a>
+									<div class="program-content__tx">
+										<p>Активный отдых для тех, кто готов погрузиться в мир детства, где каждый день, час, минута наполнены приключениями и играм. </p>
+									</div>
+									<div class="program-details">
+										<a herf="#" class="btn-brd">Описание программы</a>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">36 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+					</section>
+
+					<section class="block-programs">
+						<h3 class="block-programs__name">Детские лагеря в Подмосковье</h3>
+						<article class="program clearfix">
+							<div class="program-img" style="background-image: url(../dist/img/program-3.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 7–8 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Подмосковье, пансионат «Русь»
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">В гостях у Питера Пэна</h5></a>
+									<div class="program-content__tx">
+										<p>Погружение в сказочный мир и прекрасное сочетание активных приключений, туристических и творческих мастер-классов в детском лагере по мотивам сказки Дж. М. Барри «Питер Пэн».</p>
+									</div>
+									<div class="program-details">
+										<a herf="#" class="btn-brd">Описание программы</a>
+										<span class="info info_danger">
+											<svg class="flash">
+												<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+											</svg>
+											Места заканчиваются
+										</span>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">36 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+
+						<article class="program clearfix">
+							<div class="program-img" style="background-image: url(../dist/img/program-4.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 9–12 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Подмосковье, пансионат «Русь»
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">
+										Очевидное-невероятное. Программа с изучением английского языка
+									</h5></a>
+									<div class="program-content__tx">
+										<p>
+											Отличное сочетание развивающей программы и отдыха с изучением английского языка. Участников ждут необычные эксперименты, невероятные открытия и изобретения.
+										</p>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">36 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+
+						<article class="program clearfix">
+							<div class="program-img" style="background-image: url(../dist/img/program-5.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 7–8 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Подмосковье, пансионат «Русь»
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">
+										Изумрудный Город
+									</h5></a>
+									<div class="program-content__tx">
+										<p>
+											Детский летний лагерь по мотивам сказки «Волшебник Изумрудного города» А. М. Волкова — это волшебное путешествие и встреча со сказочными героями, развивающие занятия и игры, театр и создание мультфильма.
+										</p>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">36 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+
+						<article class="program clearfix">
+							<div class="program-img" style="background-image: url(../dist/img/program-6.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 9–12 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Подмосковье, пансионат «Покровское»
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">
+										Дети шпионов. Секретные материалы
+									</h5></a>
+									<div class="program-content__tx">
+										<p>
+											Активная приключенческая программа на летние каникулы. «Школа шпионажа», тайные операции и миссии, скаутские игры и разведческие состязания.
+										</p>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">39 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+
+						<article class="program clearfix">
+							<div class="program-img" style="background-image: url(../dist/img/program-7.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 9–12 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Подмосковье, пансионат «Русь»
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">
+										Очевидное-невероятное
+									</h5></a>
+									<div class="program-content__tx">
+										<p>
+											Отличное сочетание развивающей программы и отдыха. Участников ждут необычные эксперименты, невероятные открытия и изобретения.
+										</p>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">39 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+
+						<article class="program clearfix">
+							<div class="program-img" style="background-image: url(../dist/img/program-8.jpg)"></div>
+							<div class="program-wrap">
+								<div class="program-content">
+									<ul class="program-content__top">
+										<li>
+											<svg class="children">
+												<use xlink:href="dist/img/sprite/sprite.svg#children"></use>
+											</svg>
+											Для детей 9–12 лет
+										</li>
+										<li>
+											<svg class="pin">
+												<use xlink:href="dist/img/sprite/sprite.svg#pin"></use>
+											</svg>
+											Подмосковье, пансионат «Русь»
+										</li>
+									</ul>
+									<a href="#" class="link"><h5 class="program-content__name">
+										Хогвартс. Турнир волшебников. Программа с изучением английского языка
+									</h5></a>
+									<div class="program-content__tx">
+										<p>
+											Увлекательный английский в программе детского отдыха по мотивам истории Дж.К. Роулинг о Гарри Поттере. Волшебство и магия, турнир по квиддичу и спортивные соревнования.
+										</p>
+									</div>
+								</div>
+								<div class="program-bottom">
+									<form action="">
+										<div class="program__calendar" data-status="isactive">
+											<div class="program__calendar__field pc-row">
+												<span class="pc-calendar pc-cell">
+													<svg class="calendar">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#calendar"></use>
+													</svg>
+												</span>
+												<span class="pc-data pc-cell"><span class="data">5 июня — 18 июня</span> <input type="hidden" value=""></span>
+												<span class="pc-price pc-cell">
+													<span class="price">20 900</span>
+													<span class="rubl">i</span></span>
+													<input type="hidden" value="">
+												</span>
+												<span class="pc-details pc-cell">
+													<svg class="arrow-down">
+														<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+													</svg>
+												</span>
+											</div>
+											<ul class="calendar-dropdown">
+												<li class="pc-row pc-open" data-status="active">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>5 июня — 18 июня</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">20 900</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>29 мая — 4 июня</span></span>
+													<span class="pc-price pc-cell">Мест нет</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-cansel">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>9 июня — 1 июля</span></span>
+													<span class="pc-price pc-cell">Смена идёт</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>17 июля — 29 июля</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">40 400</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+													</span>
+												</li>
+												<li class="pc-row pc-open">
+													<span class="pc-calendar pc-cell">
+													</span>
+													<span class="pc-data pc-cell"><span>14 августа — 26 августа</span></span>
+													<span class="pc-price pc-cell">
+														<span class="price">36 600</span>
+														<span class="rubl">i</span>
+													</span>
+													<span class="pc-details pc-cell">
+														<svg class="flash">
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/sprite/sprite.svg#flash"></use>
+														</svg>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<button href="#" class="btn-main btn-sub">Заказать тур</button>
+									</form>
+								</div>
+							</div>
+						</article>
+					</section>
+				</div>
+				<div class="block-left block-left__page">
+					<div class="left-menu">
+						<ul>
+							<li class="active">
+								<a href="#">
+									<span>Летние каникулы</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+								<ul class="left-menu__sub">
+									<li><a href="#"><span>Валдайская Робинзонада</span></a></li>
+									<li><a href="#"><span>Детские лагеря в Подмосковье</span></a></li>
+									<li><a href="#"><span>Детский отдых в Сосновом бору</span></a></li>
+									<li><a href="#"><span>Отдых с изучением английского языка</span></a></li>
+									<li><a href="#"><span>Робинзонада в Карелии</span></a></li>
+									<li><a href="#"><span>Детский отдых в Крыму</span></a></li>
+									<li><a href="#"><span>Детский отдых в Калининградской области</span></a></li>
+									<li><a href="#"><span>Лагерь с изучением китайского языка</span></a></li>
+									<li><span>Летние походы и путешествия</span></li>
+									<li><a href="#"><span>Детские лагеря в Геленджике и Анапе</span></a></li>
+									<li><a href="#"><span>Валдайская Робинзонада для взрослых</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">
+									<span>Зимние каникулы</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Новый год</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Весенние каникулы</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Осенние каникулы</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Семейные программы</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Выходные</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Школам</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Дни рождения</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Фото и видео</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Все программы</span>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-subs-arrow"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<article class="block-tour block-border">
+						<h5 class="block-border__name">Подберите тур</h5>
+						<form action="">
+							<ul class="block-tour__seasons block-tour__row">
+								<li>
+									<input type="radio" name="season" value="summer">
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search-sun"></use>
+									</svg>
+									Лето
+								</li>
+								<li>
+									<input type="radio" name="season" value="fall">
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search-listik"></use>
+									</svg>
+									Осень
+								</li>
+								<li class="active">
+									<input type="radio" name="season" value="winter" checked>
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search-sneginka"></use>
+									</svg>
+									Зима
+								</li>
+								<li>
+									<input type="radio" name="season" value="spring">
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search-cvetochek"></use>
+									</svg>
+									Весна
+								</li>
+							</ul>
+							<div class="block-tour__range block-tour__row">
+								<p>Возраст ребёнка</p>
+								<span class="block-tour__range__age">7 лет</span>
+								<div id="range">
+									<input type="text" value="7">
+								</div>
+							</div>
+							<div class="block-tour__select block-tour__row">
+								<p>Тип лагеря</p>
+								<select name="">
+									<option value="">Любой</option>
+									<option value="">Оздоровительный</option>
+									<option value="">Зимний</option>
+								</select>
+							</div>
+							<div class="block-tour__date block-tour__row input-range">
+								<p>Период</p>
+								<span class="tx"> Дата заезда </span>
+								<input class="js--datepicker" type="text">
+								<span class="slash">-</span>
+								<span class="tx"> Дата отъезда </span>
+								<input class="js--datepicker" type="text">
+							</div>
+							<div class="block-tour__select block-tour__row">
+								<p>Регион</p>
+								<select rel="" id="region" name="region">
+									<option value="">любой</option>
+									<option value="228">Подмосковье</option>
+									<option value="234">Ярославская область</option>
+									<option value="232">Краснодарский край</option>
+									<option value="242">Карелия</option>
+									<option value="241">Новгородская область</option>
+									<option value="265">Калининградская область</option>
+									<option value="260">Крым</option><option value="266">Мурманская область</option>
+									<option value="268">Китай</option>
+								</select>
+							</div>
+							<div class="block-tour__send block-tour__row">
+								<button class="btn-main">
+									<svg>
+										<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-search"></use>
+									</svg>
+									Поиск
+								</button>
+							</div>
+						</form>
+					</article>
+					<div class="sub-socials">
+						<div class="subscribe block-border sub-socials__block">
+							<h5 class="subscribe__name">Хотите получать хорошие новости? </h5>
+							<p>Подпишитесь на рассылку наших спецпредложений:</p>
+							<form action="">
+								<input type="text" placeholder="электронная почта">
+								<button class="btn-main">Подписаться</button>
+							</form>
+						</div>
+
+						<div class="socials block-border sub-socials__block">
+							<p>Давайте дружить!</p>
+							<ul>
+								<li>
+									<a href="#">
+										<svg>
+											<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-social-vkontakte"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-social-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-social-twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-social-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-social-youtube"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="block-tx">
+				Приглашаем Вас и Ваших детей отправиться на отдых и в путешествие вместе с Робинзонадой! В школьные каникулы, в выходные и праздники! Клуб Путешественников Робинзонада разработал уникальные программы активного отдыха для Ваших детей – приключенческие и игровые, туристические и спортивные, развивающие и обучающие, походные и экскурсионные. Выбирайте — детский отдых в Подмосковье или детские походы, заграничные туры или экскурсии по городам России, школьные туры, главное, чтобы программа подошла по возрасту и интересам Вашему ребенку. Мы надеемся, что вместе с нами Вы сможете подарить своему ребенку яркий и незабываемый отдых!
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="navigation">
+			<div class="container">
+				<div class="footer-menu clearfix">
+					<ul>
+						<li>О клубе</li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Кто делает Робинзонаду</a></li>
+						<li><a href="#">Юридические лица</a></li>
+						<li><a href="#">Авторские права</a></li>
+						<li><a href="#">Награды</a></li>
+						<li><a href="#">Пресса о нас</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Для агентств</a></li>
+						<li><a href="#">Наши партнеры</a></li>
+						<li><a href="#">Места проведения</a></li>
+					</ul>
+					<ul>
+						<li>Программы</li>
+						<li><a href="#">Зимние каникулы</a></li>
+						<li><a href="#">Новый год</a></li>
+						<li><a href="#">Весенние каникулы</a></li>
+						<li><a href="#">Летние каникулы</a></li>
+						<li><a href="#">Осенние каникулы</a></li>
+						<li><a href="#">Семейные программы</a></li>
+						<li><a href="#">Выходные</a></li>
+						<li><a href="#">Школам</a></li>
+						<li><a href="#">Дни рождения</a></li>
+						<li><a href="#">Фото и видео</a></li>
+					</ul>
+					<ul>
+						<li>Робинзонам</li>
+						<li><a href="#">Линия Жизни Робинзона</a></li>
+						<li><a href="#">Премия «Робинзон года»</a></li>
+						<li><a href="#">Конкурсы</a></li>
+						<li><a href="#">Курсы игры на гитаре</a></li>
+						<li><a href="#">Activity. Next Step</a></li>
+						<li><a href="#">Дни Рождения Робинзонов</a></li>
+					</ul>
+					<ul>
+						<li>Родителям</li>
+						<li><a href="#">Купить путевку</a></li>
+						<li><a href="#">Отъезд/приезд групп</a></li>
+						<li><a href="#">Новости со смен</a></li>
+						<li><a href="#">Безопасность на программе</a></li>
+						<li><a href="#">Магазин Робинзонады</a></li>
+						<li><a href="#">Полезные статьи</a></li>
+						<li><a href="#">Часто задаваемые вопросы</a></li>
+						<li><a href="#">Образцы документов</a></li>
+					</ul>
+					<ul>
+						<li>Сотрудникам</li>
+						<li><a href="#">Учебный центр</a></li>
+						<li><a href="#">Курсы игры на гитаре</a></li>
+						<li><a href="#">Дни рождения педагогов</a></li>
+						<li><a href="#">Путешествия в подарок</a></li>
+						<li><a href="#">Лучшие сотрудники</a></li>
+						<li><a href="#">Документы на программы</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Запись на программу</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-info clearfix">
+					<div class="footer-info__phone">
+						<a href="tel:+74953088180">
+							<svg>
+								<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-footer-call"></use>
+							</svg>
+							+7 495 308-81-80
+						</a>
+					</div>
+					<div class="footer-info__address">
+						<svg>
+							<use xlink:href="dist/img/sprite/sprite.svg#rz-icons-footer-point"></use>
+						</svg>
+						Москва, м. Трубная, Кузнецкий мост. Нижний Кисельный переулок, д. 5/23, стр. 1
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom__license">
+					© 1998-2016. Клуб путешественников Робинзонада. «Робинзонада» является зарегистрированным Роспатентом товарным знаком. Любое использование информации без ссылки на источник будет преследоваться по закону.
+					<div class="full-site mq--xs">
+						<a href="#" class="btn-main btn-sub">Полная версия сайта</a>
+					</div>
+				</div>
+
+				<div class="footer-bottom__contacts">
+					По вопросам работы сайта пишите по адресу <a href="mailto:info@robinzonada.ru" class="link">info@robinzonada.ru</a> Нам важно Ваше мнение о нашем сайте детского отдыха. <a href="#" class="link">Карта сайта</a>
+				</div>
+
+				<div class="footer-bottom__dl">
+					<p>Создание сайтов</p>
+					<a href="design-lab.ru"><img src="dist/img/design-lab.png" alt="design-lab.png"></a>
+					<img src="dist/img/calc.png" alt="calc.png">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--MODAL WINDOWS-->
+	<div id="modal--mob-menu">
+		<div class="js--modal--mob-menu">
+			<ul id="modal--mob-menu__wrap" class="active">
+				<li>
+					<a href="#"><span>О клубе</span></a>
+					<ul>
+						<li>
+							<a href="google.com"><span>О нас</span></a>
+							<ul>
+								<li>
+									<a href="http://google.com"><span>История Робинзонады</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Клуб Путешественников сегодня</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Уникальные молодежные проекты</span></a>
+								</li>
+								<li>
+									<a href="#"><span>От детского лагеря до кругосветного путешествия</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Архив проектов</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#"><span>Нам 25 лет!</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Кто делает Робинзонаду</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Юридические лица</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Авторские права</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Награды</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Пресса о нас</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Отзывы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Для агентств</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Наши партнеры</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Места проведения</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Наши программы</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Летние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Осенние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Зимние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Весенние каникулы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Семейные программы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Программы выходного дня</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Школам</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Дни рождения</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Фото и видео</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Робинзонам</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Линия Жизни Робинзона</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Премия "Робинзон года"</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Конкурсы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Курсы игры на гитаре</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Activity. Next Step</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Дни Рождения Робинзонов</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Родителям</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Купить путевку</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Анкета on-line для родителей</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Экономим вместе</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Отъезд/приезд групп</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Новости со смен</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Безопасность на программе</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Магазин Робинзонады</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Полезные статьи</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Часто задаваемые вопросы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Образцы документов</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Ночь в Робинзонаде</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Школам</span></a>
+				</li>
+				<li>
+					<a href="#"><span>Сотрудникам</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Учебный центр</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Курсы игры на гитарe</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Дни рождения педагогов</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Путешествия в подарок</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Лучшие сотрудники</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Документы на программы</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Вакансии</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Запись на программу</span></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"><span>Акции</span></a>
+				</li>
+				<li>
+					<a href="#"><span>Отзывы</span></a>
+				</li>
+				<li>
+					<a href="#"><span>Контакты</span></a>
+					<ul>
+						<li>
+							<a href="#"><span>Офис</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Программы</span></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+
+</html>
